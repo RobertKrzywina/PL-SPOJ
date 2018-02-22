@@ -8,8 +8,7 @@ int main()
     {
         scanf("%d", &k);
         p=0;
-        if(k>=2)
-        {
+        if(k>=2){
             for(j=2;j<k;j++)
             {
                 if(k%j==0){
@@ -17,12 +16,9 @@ int main()
                 }
             }
         }
-        if(p!=0 && k>=2)
-            puts("NIE");
-        else if(p==0 && k>=2)
-            puts("TAK");
-        else
-            puts("NIE");
+        if(p!=0 && k>=2) puts("NIE");
+        else if(p==0 && k>=2) puts("TAK");
+        else puts("NIE");
     }
 
     return 0;
